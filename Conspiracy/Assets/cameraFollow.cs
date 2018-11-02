@@ -9,6 +9,9 @@ public class cameraFollow : MonoBehaviour {
     [SerializeField]
     private float mouseSensitivity;
 
+    [SerializeField]
+    private Transform playerBody; 
+ 
     private float xAxisClamp; 
 	// Use this for initialization
 	void Start () {
@@ -46,9 +49,10 @@ public class cameraFollow : MonoBehaviour {
         {
             xAxisClamp = -90.0f;
             mouseY = 0.0f;
-            ClampXtoValue(-90.0f);
+            ClampXtoValue(90.0f);
         }
-        transform.Rotate(-transform.right * mouseY);
+        transform.Rotate(Vector3.left * mouseY);
+        playerBody.Rotate(Vector3.up * mouseX);
     }
     
     private void ClampXtoValue(float value)
