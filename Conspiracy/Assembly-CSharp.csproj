@@ -64,6 +64,7 @@
     <Compile Include="Assets\cameraFollow.cs" />
     <Compile Include="Assets\CameraMove.cs" />
     <Compile Include="Assets\gameState.cs" />
+    <Compile Include="Assets\NoteBook.cs" />
     <Compile Include="Assets\NpcDialogue.cs" />
     <Compile Include="Assets\PassengerTalk.cs" />
     <Compile Include="Assets\pickUpUI.cs" />

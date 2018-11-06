@@ -17,7 +17,9 @@ public class PlayerController : MonoBehaviour {
     private PlayerAction action;
     private gameState stateScript; 
 
-    private GameObject state; 
+    private GameObject state;
+    [SerializeField]
+    private Camera playerCamera; 
 	// Use this for initialization
 	void Start () {
         action = GetComponent<PlayerAction>();
@@ -49,13 +51,15 @@ public class PlayerController : MonoBehaviour {
             action.Move(_velocity);
 
             //Player Rotation
-            float _turnRot = Input.GetAxis("Mouse X");
+            float _turnRot = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+            float _turnVert = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
-            Vector3 _rotation = new Vector3(0f, _turnRot, 0f) * sensitivity;
+            Vector3 _rotation = new Vector3(0f, _turnRot, 0f) ;
 
             action.Rotate(_rotation);
+            playerCamera.transform.Rotate(Vector3.left * _turnVert);
         }
-
+       
         
 	}
 
@@ -77,4 +81,13 @@ public class PlayerController : MonoBehaviour {
 
         return false; 
     }
+
+    private void ClampXAxisRotationToValue(float value)
+    {
+        Vector3 eulerRotation = transform.eulerAngles;
+        eulerRotation.x = value;
+        transform.eulerAngles = eulerRotation;
+    }
+
+
 }
