@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: c4b8a9f0fe1740b4fad1377ec73a8dee
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: PersonRig_Ctrl_ChestEndEffector
+    100006: PersonRig_Ctrl_ChestOriginEffector
+    100008: PersonRig_Ctrl_Head
+    100010: PersonRig_Ctrl_HeadEffector
+    100012: PersonRig_Ctrl_Hips
+    100014: PersonRig_Ctrl_HipsEffector
+    100016: PersonRig_Ctrl_LeftAnkleEffector
+    100018: PersonRig_Ctrl_LeftArm
+    100020: PersonRig_Ctrl_LeftElbowEffector
+    100022: PersonRig_Ctrl_LeftFoot
+    100024: PersonRig_Ctrl_LeftFootEffector
+    100026: PersonRig_Ctrl_LeftForeArm
+    100028: PersonRig_Ctrl_LeftHand
+    100030: PersonRig_Ctrl_LeftHipEffector
+    100032: PersonRig_Ctrl_LeftKneeEffector
+    100034: PersonRig_Ctrl_LeftLeg
+    100036: PersonRig_Ctrl_LeftShoulder
+    100038: PersonRig_Ctrl_LeftShoulderEffector
+    100040: PersonRig_Ctrl_LeftToeBase
+    100042: PersonRig_Ctrl_LeftUpLeg
+    100044: PersonRig_Ctrl_LeftWristEffector
+    100046: PersonRig_Ctrl_Neck
+    100048: PersonRig_Ctrl_Reference
+    100050: PersonRig_Ctrl_RightAnkleEffector
+    100052: PersonRig_Ctrl_RightArm
+    100054: PersonRig_Ctrl_RightElbowEffector
+    100056: PersonRig_Ctrl_RightFoot
+    100058: PersonRig_Ctrl_RightFootEffector
+    100060: PersonRig_Ctrl_RightForeArm
+    100062: PersonRig_Ctrl_RightHand
+    100064: PersonRig_Ctrl_RightHipEffector
+    100066: PersonRig_Ctrl_RightKneeEffector
+    100068: PersonRig_Ctrl_RightLeg
+    100070: PersonRig_Ctrl_RightShoulder
+    100072: PersonRig_Ctrl_RightShoulderEffector
+    100074: PersonRig_Ctrl_RightToeBase
+    100076: PersonRig_Ctrl_RightUpLeg
+    100078: PersonRig_Ctrl_RightWristEffector
+    100080: PersonRig_Ctrl_Spine
+    100082: PersonRig_Ctrl_Spine1
+    100084: PersonRig_Ctrl_Spine2
+    100086: PersonRig_Head
+    100088: PersonRig_Hips
+    100090: PersonRig_LeftArm
+    100092: PersonRig_LeftFoot
+    100094: PersonRig_LeftForeArm
+    100096: PersonRig_LeftHand
+    100098: PersonRig_LeftLeg
+    100100: PersonRig_LeftShoulder
+    100102: PersonRig_LeftToeBase
+    100104: PersonRig_LeftUpLeg
+    100106: PersonRig_Neck
+    100108: PersonRig_Reference
+    100110: PersonRig_RightArm
+    100112: PersonRig_RightFoot
+    100114: PersonRig_RightForeArm
+    100116: PersonRig_RightHand
+    100118: PersonRig_RightLeg
+    100120: PersonRig_RightShoulder
+    100122: PersonRig_RightToeBase
+    100124: PersonRig_RightUpLeg
+    100126: PersonRig_Spine
+    100128: PersonRig_Spine1
+    100130: PersonRig_Spine2
+    400000: Body
+    400002: //RootNode
+    400004: PersonRig_Ctrl_ChestEndEffector
+    400006: PersonRig_Ctrl_ChestOriginEffector
+    400008: PersonRig_Ctrl_Head
+    400010: PersonRig_Ctrl_HeadEffector
+    400012: PersonRig_Ctrl_Hips
+    400014: PersonRig_Ctrl_HipsEffector
+    400016: PersonRig_Ctrl_LeftAnkleEffector
+    400018: PersonRig_Ctrl_LeftArm
+    400020: PersonRig_Ctrl_LeftElbowEffector
+    400022: PersonRig_Ctrl_LeftFoot
+    400024: PersonRig_Ctrl_LeftFootEffector
+    400026: PersonRig_Ctrl_LeftForeArm
+    400028: PersonRig_Ctrl_LeftHand
+    400030: PersonRig_Ctrl_LeftHipEffector
+    400032: PersonRig_Ctrl_LeftKneeEffector
+    400034: PersonRig_Ctrl_LeftLeg
+    400036: PersonRig_Ctrl_LeftShoulder
+    400038: PersonRig_Ctrl_LeftShoulderEffector
+    400040: PersonRig_Ctrl_LeftToeBase
+    400042: PersonRig_Ctrl_LeftUpLeg
+    400044: PersonRig_Ctrl_LeftWristEffector
+    400046: PersonRig_Ctrl_Neck
+    400048: PersonRig_Ctrl_Reference
+    400050: PersonRig_Ctrl_RightAnkleEffector
+    400052: PersonRig_Ctrl_RightArm
+    400054: PersonRig_Ctrl_RightElbowEffector
+    400056: PersonRig_Ctrl_RightFoot
+    400058: PersonRig_Ctrl_RightFootEffector
+    400060: PersonRig_Ctrl_RightForeArm
+    400062: PersonRig_Ctrl_RightHand
+    400064: PersonRig_Ctrl_RightHipEffector
+    400066: PersonRig_Ctrl_RightKneeEffector
+    400068: PersonRig_Ctrl_RightLeg
+    400070: PersonRig_Ctrl_RightShoulder
+    400072: PersonRig_Ctrl_RightShoulderEffector
+    400074: PersonRig_Ctrl_RightToeBase
+    400076: PersonRig_Ctrl_RightUpLeg
+    400078: PersonRig_Ctrl_RightWristEffector
+    400080: PersonRig_Ctrl_Spine
+    400082: PersonRig_Ctrl_Spine1
+    400084: PersonRig_Ctrl_Spine2
+    400086: PersonRig_Head
+    400088: PersonRig_Hips
+    400090: PersonRig_LeftArm
+    400092: PersonRig_LeftFoot
+    400094: PersonRig_LeftForeArm
+    400096: PersonRig_LeftHand
+    400098: PersonRig_LeftLeg
+    400100: PersonRig_LeftShoulder
+    400102: PersonRig_LeftToeBase
+    400104: PersonRig_LeftUpLeg
+    400106: PersonRig_Neck
+    400108: PersonRig_Reference
+    400110: PersonRig_RightArm
+    400112: PersonRig_RightFoot
+    400114: PersonRig_RightForeArm
+    400116: PersonRig_RightHand
+    400118: PersonRig_RightLeg
+    400120: PersonRig_RightShoulder
+    400122: PersonRig_RightToeBase
+    400124: PersonRig_RightUpLeg
+    400126: PersonRig_Spine
+    400128: PersonRig_Spine1
+    400130: PersonRig_Spine2
+    2100000: Pants
+    2100002: Skin
+    2100004: Shirt
+    2100006: Shoes
+    4300000: Body
+    9500000: //RootNode
+    13700000: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants
+    second: {fileID: 2100000, guid: 75e9890dd3480d04aaa3a1e7376ad548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: da97de37c6fcbaa45944bcca91be4cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoes
+    second: {fileID: 2100000, guid: a1227e9d7a9ff214ea6c91f38dba2ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: 6c16f1294b7254648b69b56a39c04200, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
