@@ -16,17 +16,14 @@ public class PlayerInteract : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Physics.Raycast(transform.position, Vector3.forward, out look, 20))
-        {
-            if(look.transform.tag == "Pick Up Item")
-            {
-                Debug.Log("bitchh");
-                canScript.showPickUp(); 
-            }
-            else
-            {
-                canScript.hidePickUp(); 
-            }
-        }
+
 	}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Pick Up Item")
+        {
+            canScript.showPickUp();
+        }
+    }
 }

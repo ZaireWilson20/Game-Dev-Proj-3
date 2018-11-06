@@ -6,11 +6,17 @@ using UnityEngine;
 public class PlayerAction : MonoBehaviour {
 
     private Vector3 playerVelocity = Vector3.zero;
-    private Vector3 playerRotation = Vector3.zero; 
+    private Vector3 playerRotation = Vector3.zero;
 
-    private Rigidbody rigid; 
-	// Use this for initialization
-	void Start () {
+
+    private Rigidbody rigid;
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    // Use this for initialization
+    void Start () {
         rigid = GetComponent<Rigidbody>();
 
 	}
@@ -47,6 +53,6 @@ public class PlayerAction : MonoBehaviour {
 
     void MakeRotation()
     {
-        rigid.MoveRotation(transform.rotation * Quaternion.Euler(playerRotation) );
+        rigid.MoveRotation(transform.rotation * Quaternion.Euler(playerRotation));
     }
 }
