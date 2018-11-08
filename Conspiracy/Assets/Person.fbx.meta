@@ -1,168 +1,191 @@
 fileFormatVersion: 2
-guid: c4b8a9f0fe1740b4fad1377ec73a8dee
+guid: c8b36c47674356f4ab702dea90824320
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Body
-    100002: //RootNode
-    100004: PersonRig_Ctrl_ChestEndEffector
-    100006: PersonRig_Ctrl_ChestOriginEffector
-    100008: PersonRig_Ctrl_Head
-    100010: PersonRig_Ctrl_HeadEffector
-    100012: PersonRig_Ctrl_Hips
-    100014: PersonRig_Ctrl_HipsEffector
-    100016: PersonRig_Ctrl_LeftAnkleEffector
-    100018: PersonRig_Ctrl_LeftArm
-    100020: PersonRig_Ctrl_LeftElbowEffector
-    100022: PersonRig_Ctrl_LeftFoot
-    100024: PersonRig_Ctrl_LeftFootEffector
-    100026: PersonRig_Ctrl_LeftForeArm
-    100028: PersonRig_Ctrl_LeftHand
-    100030: PersonRig_Ctrl_LeftHipEffector
-    100032: PersonRig_Ctrl_LeftKneeEffector
-    100034: PersonRig_Ctrl_LeftLeg
-    100036: PersonRig_Ctrl_LeftShoulder
-    100038: PersonRig_Ctrl_LeftShoulderEffector
-    100040: PersonRig_Ctrl_LeftToeBase
-    100042: PersonRig_Ctrl_LeftUpLeg
-    100044: PersonRig_Ctrl_LeftWristEffector
-    100046: PersonRig_Ctrl_Neck
-    100048: PersonRig_Ctrl_Reference
-    100050: PersonRig_Ctrl_RightAnkleEffector
-    100052: PersonRig_Ctrl_RightArm
-    100054: PersonRig_Ctrl_RightElbowEffector
-    100056: PersonRig_Ctrl_RightFoot
-    100058: PersonRig_Ctrl_RightFootEffector
-    100060: PersonRig_Ctrl_RightForeArm
-    100062: PersonRig_Ctrl_RightHand
-    100064: PersonRig_Ctrl_RightHipEffector
-    100066: PersonRig_Ctrl_RightKneeEffector
-    100068: PersonRig_Ctrl_RightLeg
-    100070: PersonRig_Ctrl_RightShoulder
-    100072: PersonRig_Ctrl_RightShoulderEffector
-    100074: PersonRig_Ctrl_RightToeBase
-    100076: PersonRig_Ctrl_RightUpLeg
-    100078: PersonRig_Ctrl_RightWristEffector
-    100080: PersonRig_Ctrl_Spine
-    100082: PersonRig_Ctrl_Spine1
-    100084: PersonRig_Ctrl_Spine2
-    100086: PersonRig_Head
-    100088: PersonRig_Hips
-    100090: PersonRig_LeftArm
-    100092: PersonRig_LeftFoot
-    100094: PersonRig_LeftForeArm
-    100096: PersonRig_LeftHand
-    100098: PersonRig_LeftLeg
-    100100: PersonRig_LeftShoulder
-    100102: PersonRig_LeftToeBase
-    100104: PersonRig_LeftUpLeg
-    100106: PersonRig_Neck
-    100108: PersonRig_Reference
-    100110: PersonRig_RightArm
-    100112: PersonRig_RightFoot
-    100114: PersonRig_RightForeArm
-    100116: PersonRig_RightHand
-    100118: PersonRig_RightLeg
-    100120: PersonRig_RightShoulder
-    100122: PersonRig_RightToeBase
-    100124: PersonRig_RightUpLeg
-    100126: PersonRig_Spine
-    100128: PersonRig_Spine1
-    100130: PersonRig_Spine2
+    100002: Mustache
+    100004: //RootNode
+    100006: PersonRig_Ctrl_ChestEndEffector
+    100008: PersonRig_Ctrl_ChestOriginEffector
+    100010: PersonRig_Ctrl_Head
+    100012: PersonRig_Ctrl_HeadEffector
+    100014: PersonRig_Ctrl_Hips
+    100016: PersonRig_Ctrl_HipsEffector
+    100018: PersonRig_Ctrl_LeftAnkleEffector
+    100020: PersonRig_Ctrl_LeftArm
+    100022: PersonRig_Ctrl_LeftElbowEffector
+    100024: PersonRig_Ctrl_LeftFoot
+    100026: PersonRig_Ctrl_LeftFootEffector
+    100028: PersonRig_Ctrl_LeftForeArm
+    100030: PersonRig_Ctrl_LeftHand
+    100032: PersonRig_Ctrl_LeftHipEffector
+    100034: PersonRig_Ctrl_LeftKneeEffector
+    100036: PersonRig_Ctrl_LeftLeg
+    100038: PersonRig_Ctrl_LeftShoulder
+    100040: PersonRig_Ctrl_LeftShoulderEffector
+    100042: PersonRig_Ctrl_LeftToeBase
+    100044: PersonRig_Ctrl_LeftUpLeg
+    100046: PersonRig_Ctrl_LeftWristEffector
+    100048: PersonRig_Ctrl_Neck
+    100050: PersonRig_Ctrl_Reference
+    100052: PersonRig_Ctrl_RightAnkleEffector
+    100054: PersonRig_Ctrl_RightArm
+    100056: PersonRig_Ctrl_RightElbowEffector
+    100058: PersonRig_Ctrl_RightFoot
+    100060: PersonRig_Ctrl_RightFootEffector
+    100062: PersonRig_Ctrl_RightForeArm
+    100064: PersonRig_Ctrl_RightHand
+    100066: PersonRig_Ctrl_RightHipEffector
+    100068: PersonRig_Ctrl_RightKneeEffector
+    100070: PersonRig_Ctrl_RightLeg
+    100072: PersonRig_Ctrl_RightShoulder
+    100074: PersonRig_Ctrl_RightShoulderEffector
+    100076: PersonRig_Ctrl_RightToeBase
+    100078: PersonRig_Ctrl_RightUpLeg
+    100080: PersonRig_Ctrl_RightWristEffector
+    100082: PersonRig_Ctrl_Spine
+    100084: PersonRig_Ctrl_Spine1
+    100086: PersonRig_Ctrl_Spine2
+    100088: PersonRig_Head
+    100090: PersonRig_Hips
+    100092: PersonRig_LeftArm
+    100094: PersonRig_LeftFoot
+    100096: PersonRig_LeftForeArm
+    100098: PersonRig_LeftHand
+    100100: PersonRig_LeftLeg
+    100102: PersonRig_LeftShoulder
+    100104: PersonRig_LeftToeBase
+    100106: PersonRig_LeftUpLeg
+    100108: PersonRig_Neck
+    100110: PersonRig_Reference
+    100112: PersonRig_RightArm
+    100114: PersonRig_RightFoot
+    100116: PersonRig_RightForeArm
+    100118: PersonRig_RightHand
+    100120: PersonRig_RightLeg
+    100122: PersonRig_RightShoulder
+    100124: PersonRig_RightToeBase
+    100126: PersonRig_RightUpLeg
+    100128: PersonRig_Spine
+    100130: PersonRig_Spine1
+    100132: PersonRig_Spine2
+    100134: Tophat
     400000: Body
-    400002: //RootNode
-    400004: PersonRig_Ctrl_ChestEndEffector
-    400006: PersonRig_Ctrl_ChestOriginEffector
-    400008: PersonRig_Ctrl_Head
-    400010: PersonRig_Ctrl_HeadEffector
-    400012: PersonRig_Ctrl_Hips
-    400014: PersonRig_Ctrl_HipsEffector
-    400016: PersonRig_Ctrl_LeftAnkleEffector
-    400018: PersonRig_Ctrl_LeftArm
-    400020: PersonRig_Ctrl_LeftElbowEffector
-    400022: PersonRig_Ctrl_LeftFoot
-    400024: PersonRig_Ctrl_LeftFootEffector
-    400026: PersonRig_Ctrl_LeftForeArm
-    400028: PersonRig_Ctrl_LeftHand
-    400030: PersonRig_Ctrl_LeftHipEffector
-    400032: PersonRig_Ctrl_LeftKneeEffector
-    400034: PersonRig_Ctrl_LeftLeg
-    400036: PersonRig_Ctrl_LeftShoulder
-    400038: PersonRig_Ctrl_LeftShoulderEffector
-    400040: PersonRig_Ctrl_LeftToeBase
-    400042: PersonRig_Ctrl_LeftUpLeg
-    400044: PersonRig_Ctrl_LeftWristEffector
-    400046: PersonRig_Ctrl_Neck
-    400048: PersonRig_Ctrl_Reference
-    400050: PersonRig_Ctrl_RightAnkleEffector
-    400052: PersonRig_Ctrl_RightArm
-    400054: PersonRig_Ctrl_RightElbowEffector
-    400056: PersonRig_Ctrl_RightFoot
-    400058: PersonRig_Ctrl_RightFootEffector
-    400060: PersonRig_Ctrl_RightForeArm
-    400062: PersonRig_Ctrl_RightHand
-    400064: PersonRig_Ctrl_RightHipEffector
-    400066: PersonRig_Ctrl_RightKneeEffector
-    400068: PersonRig_Ctrl_RightLeg
-    400070: PersonRig_Ctrl_RightShoulder
-    400072: PersonRig_Ctrl_RightShoulderEffector
-    400074: PersonRig_Ctrl_RightToeBase
-    400076: PersonRig_Ctrl_RightUpLeg
-    400078: PersonRig_Ctrl_RightWristEffector
-    400080: PersonRig_Ctrl_Spine
-    400082: PersonRig_Ctrl_Spine1
-    400084: PersonRig_Ctrl_Spine2
-    400086: PersonRig_Head
-    400088: PersonRig_Hips
-    400090: PersonRig_LeftArm
-    400092: PersonRig_LeftFoot
-    400094: PersonRig_LeftForeArm
-    400096: PersonRig_LeftHand
-    400098: PersonRig_LeftLeg
-    400100: PersonRig_LeftShoulder
-    400102: PersonRig_LeftToeBase
-    400104: PersonRig_LeftUpLeg
-    400106: PersonRig_Neck
-    400108: PersonRig_Reference
-    400110: PersonRig_RightArm
-    400112: PersonRig_RightFoot
-    400114: PersonRig_RightForeArm
-    400116: PersonRig_RightHand
-    400118: PersonRig_RightLeg
-    400120: PersonRig_RightShoulder
-    400122: PersonRig_RightToeBase
-    400124: PersonRig_RightUpLeg
-    400126: PersonRig_Spine
-    400128: PersonRig_Spine1
-    400130: PersonRig_Spine2
+    400002: Mustache
+    400004: //RootNode
+    400006: PersonRig_Ctrl_ChestEndEffector
+    400008: PersonRig_Ctrl_ChestOriginEffector
+    400010: PersonRig_Ctrl_Head
+    400012: PersonRig_Ctrl_HeadEffector
+    400014: PersonRig_Ctrl_Hips
+    400016: PersonRig_Ctrl_HipsEffector
+    400018: PersonRig_Ctrl_LeftAnkleEffector
+    400020: PersonRig_Ctrl_LeftArm
+    400022: PersonRig_Ctrl_LeftElbowEffector
+    400024: PersonRig_Ctrl_LeftFoot
+    400026: PersonRig_Ctrl_LeftFootEffector
+    400028: PersonRig_Ctrl_LeftForeArm
+    400030: PersonRig_Ctrl_LeftHand
+    400032: PersonRig_Ctrl_LeftHipEffector
+    400034: PersonRig_Ctrl_LeftKneeEffector
+    400036: PersonRig_Ctrl_LeftLeg
+    400038: PersonRig_Ctrl_LeftShoulder
+    400040: PersonRig_Ctrl_LeftShoulderEffector
+    400042: PersonRig_Ctrl_LeftToeBase
+    400044: PersonRig_Ctrl_LeftUpLeg
+    400046: PersonRig_Ctrl_LeftWristEffector
+    400048: PersonRig_Ctrl_Neck
+    400050: PersonRig_Ctrl_Reference
+    400052: PersonRig_Ctrl_RightAnkleEffector
+    400054: PersonRig_Ctrl_RightArm
+    400056: PersonRig_Ctrl_RightElbowEffector
+    400058: PersonRig_Ctrl_RightFoot
+    400060: PersonRig_Ctrl_RightFootEffector
+    400062: PersonRig_Ctrl_RightForeArm
+    400064: PersonRig_Ctrl_RightHand
+    400066: PersonRig_Ctrl_RightHipEffector
+    400068: PersonRig_Ctrl_RightKneeEffector
+    400070: PersonRig_Ctrl_RightLeg
+    400072: PersonRig_Ctrl_RightShoulder
+    400074: PersonRig_Ctrl_RightShoulderEffector
+    400076: PersonRig_Ctrl_RightToeBase
+    400078: PersonRig_Ctrl_RightUpLeg
+    400080: PersonRig_Ctrl_RightWristEffector
+    400082: PersonRig_Ctrl_Spine
+    400084: PersonRig_Ctrl_Spine1
+    400086: PersonRig_Ctrl_Spine2
+    400088: PersonRig_Head
+    400090: PersonRig_Hips
+    400092: PersonRig_LeftArm
+    400094: PersonRig_LeftFoot
+    400096: PersonRig_LeftForeArm
+    400098: PersonRig_LeftHand
+    400100: PersonRig_LeftLeg
+    400102: PersonRig_LeftShoulder
+    400104: PersonRig_LeftToeBase
+    400106: PersonRig_LeftUpLeg
+    400108: PersonRig_Neck
+    400110: PersonRig_Reference
+    400112: PersonRig_RightArm
+    400114: PersonRig_RightFoot
+    400116: PersonRig_RightForeArm
+    400118: PersonRig_RightHand
+    400120: PersonRig_RightLeg
+    400122: PersonRig_RightShoulder
+    400124: PersonRig_RightToeBase
+    400126: PersonRig_RightUpLeg
+    400128: PersonRig_Spine
+    400130: PersonRig_Spine1
+    400132: PersonRig_Spine2
+    400134: Tophat
     2100000: Pants
     2100002: Skin
     2100004: Shirt
     2100006: Shoes
+    2100008: Hat
+    2100010: MustacheTex
+    2300000: Mustache
+    2300002: Tophat
+    3300000: Mustache
+    3300002: Tophat
     4300000: Body
+    4300002: Tophat
+    4300004: Mustache
+    7400000: Idle
     9500000: //RootNode
     13700000: Body
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 1fe6219fd2ae0b5488f3948d58a79131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MustacheTex
+    second: {fileID: 2100000, guid: d12c17748172aed4c9f6bf71989b8be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Pants
-    second: {fileID: 2100000, guid: 75e9890dd3480d04aaa3a1e7376ad548, type: 2}
+    second: {fileID: 2100000, guid: 2b2cdb583165f134f86b7f07763405dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shirt
-    second: {fileID: 2100000, guid: da97de37c6fcbaa45944bcca91be4cc8, type: 2}
+    second: {fileID: 2100000, guid: 1d7551cb0d780674d813a10d5a3dcb2d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shoes
-    second: {fileID: 2100000, guid: a1227e9d7a9ff214ea6c91f38dba2ce9, type: 2}
+    second: {fileID: 2100000, guid: 64ed8716f493046489d07f6cadf065d4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Skin
-    second: {fileID: 2100000, guid: 6c16f1294b7254648b69b56a39c04200, type: 2}
+    second: {fileID: 2100000, guid: 4c937435e84683740801964664720bf4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -189,11 +212,39 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 4.5
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -213,7 +264,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
+    previousCalculatedGlobalScale: 0.044999998
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
