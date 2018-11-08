@@ -59,17 +59,18 @@ public class PlayerController : MonoBehaviour {
             action.Rotate(_rotation);
             playerCamera.transform.Rotate(Vector3.left * _turnVert);
         }
-       
-        
-	}
+
+
+    }
 
     public bool facingTrigger()
     {
-        RaycastHit hit; 
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit))
+        RaycastHit hit;
+        
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 500f )) 
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            if (hit.transform.tag == "Pick Up Item")
+            Debug.DrawRay(transform.position, Vector3.forward, Color.yellow, 1000f);
+            if (hit.transform.tag == "Npc")
             {
 
 

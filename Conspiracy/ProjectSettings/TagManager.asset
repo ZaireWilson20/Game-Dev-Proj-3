@@ -9,6 +9,7 @@ TagManager:
   - Main Canvas
   - Npc
   - GameState
+  - Dialogue Canvas
   layers:
   - Default
   - TransparentFX

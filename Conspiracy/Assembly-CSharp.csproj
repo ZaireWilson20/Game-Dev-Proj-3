@@ -73,6 +73,7 @@
     <Compile Include="Assets\PlayerInteract.cs" />
     <Compile Include="Assets\PopUp_Controller.cs" />
     <Compile Include="Assets\Talk.cs" />
+    <Compile Include="Assets\viewHandler.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Zaire/Documents/Game Dev 1/Proj 3/Game Dev Proj 3/Conspiracy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

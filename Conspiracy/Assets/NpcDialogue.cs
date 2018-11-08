@@ -11,13 +11,20 @@ public class NpcDialogue : MonoBehaviour {
     private bool inRange = false;
     bool currentlyTalking;
 
+
+    [SerializeField]
+    private GameObject playerCamera;
+    private viewHandler pView;
     // Use this for initialization
     void Start()
     {
         canvas = GameObject.FindGameObjectWithTag("Main Canvas");
         gStateObject = GameObject.FindGameObjectWithTag("GameState");
         canScript = canvas.GetComponent<PopUp_Controller>();
-        gStateScript = gStateObject.GetComponent<gameState>(); 
+        gStateScript = gStateObject.GetComponent<gameState>();
+
+        //Script for Camera Handling
+        pView = playerCamera.GetComponent<viewHandler>();
     }
 
     // Update is called once per frame
@@ -27,7 +34,7 @@ public class NpcDialogue : MonoBehaviour {
         {
             gStateScript.resumeGame(); 
         }
-        else if (inRange && Input.GetKeyDown(KeyCode.E))
+        else if (inRange && Input.GetKeyDown(KeyCode.E) && pView.facingTrigger())
         {
             gStateScript.currentState = gameState.state.Dialogue;
             Debug.Log("bitchh");
