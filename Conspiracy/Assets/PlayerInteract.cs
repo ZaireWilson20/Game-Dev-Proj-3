@@ -9,11 +9,16 @@ public class PlayerInteract : MonoBehaviour {
     private PopUp_Controller canScript;
     private GameObject canvas;
     private bool canTalk = false;
-    private bool talking = false; 
+    public bool talking = false;
+    private PlayerController anonCont; 
+
     [SerializeField]
+
+    public GameObject thisCont; 
 	// Use this for initialization
 	void Start () {
         canvas = GameObject.FindGameObjectWithTag("Main Canvas");
+        anonCont = thisCont.GetComponent<PlayerController>();
         canScript = canvas.GetComponent<PopUp_Controller>();
 	}
 	
@@ -21,13 +26,17 @@ public class PlayerInteract : MonoBehaviour {
 	void Update () {
         if (canTalk && Input.GetKeyDown(KeyCode.E))
         {
-            talking = true; 
+            talking = true;
+            canTalk = false;
             canScript.showDialogue();
+            canScript.hidePickUp(); 
         }
 
-        if (talking && Input.GetKeyDown(KeyCode.E))
+        else if (talking && Input.GetKeyDown(KeyCode.E))
         {
             canScript.hideDialogue();
+            anonCont.setSpeaking(false);
+            talking = false; 
         }
 	}
 
@@ -35,7 +44,6 @@ public class PlayerInteract : MonoBehaviour {
     {
         if(other.tag == "Npc")
         {
-                Debug.Log("hi guy");
                 canScript.showPickUp();
             canTalk = true; 
         }
@@ -49,4 +57,5 @@ public class PlayerInteract : MonoBehaviour {
             canTalk = false; 
         }
     }
+
 }

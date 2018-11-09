@@ -19,21 +19,33 @@ public class PlayerController : MonoBehaviour {
 
     private GameObject state;
     [SerializeField]
-    private Camera playerCamera; 
+    private Camera playerCamera;
+
+
+    [SerializeField]
+    private PlayerInteract _playerState;
+    [SerializeField]
+    private GameObject _interactObj;
+
+    public bool speaking = false; 
 	// Use this for initialization
 	void Start () {
         action = GetComponent<PlayerAction>();
         state = GameObject.FindGameObjectWithTag("GameState");
         stateScript = state.GetComponent<gameState>();
-        
+        _playerState = _interactObj.GetComponent<PlayerInteract>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (stateScript.currentState == gameState.state.Dialogue)
+        
+        if (_playerState.talking)
         {
-
+            if (!speaking)
+            {
+                setSpeaking(true);
+            }
         }
         else { 
             //Getting Input 
@@ -90,5 +102,9 @@ public class PlayerController : MonoBehaviour {
         transform.eulerAngles = eulerRotation;
     }
 
+    public void setSpeaking(bool state)
+    {
+        speaking = state; 
+    }
 
 }

@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\cameraFollow.cs" />
     <Compile Include="Assets\CameraMove.cs" />
+    <Compile Include="Assets\DialogueSystem.cs" />
     <Compile Include="Assets\gameState.cs" />
     <Compile Include="Assets\NoteBook.cs" />
     <Compile Include="Assets\NpcDialogue.cs" />
@@ -72,7 +73,9 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerInteract.cs" />
     <Compile Include="Assets\PopUp_Controller.cs" />
+    <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Talk.cs" />
+    <Compile Include="Assets\talkTrigger.cs" />
     <Compile Include="Assets\viewHandler.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Zaire/Documents/Game Dev 1/Proj 3/Game Dev Proj 3/Conspiracy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
