@@ -1,4 +1,4 @@
-ï»¿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -136,25 +136,30 @@ public class NoteBook : MonoBehaviour
     void PageFlipRight()
     {
         rightFlip = false;
+	   AudioManager am = FindObjectOfType<AudioManager>();
         if (pageOne == true)
         {
             pageOne = false;
             SecondPage();
+            am.Play("Flip Page 1");
         }
         else if (pageTwo == true)
         {
             pageTwo = false;
             ThirdPage();
+            am.Play("Flip Page 3");
         }
         else if (pageThree == true)
         {
             pageThree = false;
             FourthPage();
+            am.Play("Flip Page 2");
         }
         else if (pageFour == true)
         {
             pageFour = false;
             FifthPage();
+            am.Play("Flip Page 1");
         }
 
     }
@@ -162,26 +167,31 @@ public class NoteBook : MonoBehaviour
     void PageFlipLeft()
     {
         leftFlip = false;
+	   AudioManager am = FindObjectOfType<AudioManager>();
         if (pageTwo == true)
         {
             pageTwo = false;
             //Debug.Log("Page one");
             FirstPage();
+            am.Play("Flip Page 1");
         }
         else if (pageThree == true)
         {
             pageThree = false;
             SecondPage();
+            am.Play("Flip Page 2");
         }
         else if (pageFour == true)
         {
             pageFour = false;
             ThirdPage();
+            am.Play("Flip Page 3");
         }
         else if (pageFive == true)
         {
             pageFive = false;
             FourthPage();
+            am.Play("Flip Page 2");
         }
     }
     //for each of the pages, loads in the correct sprites to the images
@@ -212,7 +222,7 @@ public class NoteBook : MonoBehaviour
         }
         if (firstYeti == true)
         {
-            clueOneYeti.text = "TALK TO SKINNER!!! Convenience store, wears big â€˜ol top hat";
+            clueOneYeti.text = "TALK TO SKINNER!!! Convenience store, wears big ‘ol top hat";
         }
         if (secondYeti == true)
         {
@@ -236,7 +246,7 @@ public class NoteBook : MonoBehaviour
         }
         if (secondAlien == true)
         {
-            clueTwo.text = "GOTTA POKE A HOLE IN FINNâ€™S STORY!";
+            clueTwo.text = "GOTTA POKE A HOLE IN FINN’S STORY!";
         }
     }
     void FifthPage()
@@ -253,7 +263,7 @@ public class NoteBook : MonoBehaviour
         }
         if (secondCult == true)
         {
-            clueTwo.text = "If this is real . . . are the townspeople spreading the other theories as cover-ups? Whoâ€™s in on this thing?";
+            clueTwo.text = "If this is real . . . are the townspeople spreading the other theories as cover-ups? Who’s in on this thing?";
         }
         if (firstCult == true && secondCult == true)
         {
