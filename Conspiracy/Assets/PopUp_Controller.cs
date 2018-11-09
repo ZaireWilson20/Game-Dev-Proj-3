@@ -10,13 +10,14 @@ public class PopUp_Controller : MonoBehaviour {
     private bool pickExists = false;
     private bool diaExists = false;
     private bool talkUI = false; 
+    private string npcName; 
     [SerializeField]
     private bool diaUp; 
 
     [SerializeField]
-    private GameObject pickUpText;
+    public GameObject pickUpText;
     [SerializeField]
-    private GameObject dialougeUI;
+    public GameObject dialougeUI;
 
 
     private GameObject pickUpTextObj;
@@ -27,7 +28,12 @@ public class PopUp_Controller : MonoBehaviour {
     private DialogueSystem dialogue;
 
     [SerializeField]
-    private GameObject diaPanel; 
+    private GameObject diaPanel;
+
+    private bool diaInst = false;
+    private bool first = false;
+    private talkTrigger trigger;
+    public GameObject triggerObj;
 	// Use this for initialization
 	void Start () {
 		
@@ -37,25 +43,39 @@ public class PopUp_Controller : MonoBehaviour {
 	void Update () {
 
         //Creating Prompt for dialogue interaction
-        nameLater(pickUpText, ref pickUpTextObj, ref E_Pick, ref pickExists);
+        nameLater(pickUpText, ref E_Pick, ref pickExists, false);
 
         //Starting Dialogue Scene
-        nameLater(dialougeUI, ref diaObject, ref diaUp, ref diaExists);
+        nameLater(dialougeUI, ref diaUp, ref diaExists, true);
         
 	}
 
-    private void nameLater(GameObject ogObject, ref GameObject cloneObj, ref bool inRange, ref bool exists)
+    private void nameLater(GameObject ogObject, ref bool inRange, ref bool exists, bool isDia)
     {
+        if (diaInst)
+        {
+            trigger = triggerObj.GetComponent<talkTrigger>();
+            trigger.lookForDialogue(npcName);
+            trigger.StartTalkin();
+
+                diaInst = false;
+            
+        }
+        
         if (inRange && !exists)
         {
 
-            cloneObj = Instantiate(ogObject, transform, false);
+            ogObject.SetActive(true);
             exists = true;
+            if (isDia)
+            {
+                diaInst = true;
+            }
         }
         else if (!inRange && exists)
         {
             //pickUpTextObj = GameObject.FindGameObjectWithTag("Pick Up");
-            Destroy(cloneObj);
+            ogObject.SetActive(false);
             exists = false;
         }
     }
@@ -70,8 +90,9 @@ public class PopUp_Controller : MonoBehaviour {
         E_Pick = false; 
     }
 
-    public void showTalk()
+    public void showTalk(string name)
     {
+        
         talkUI = true;
     }
 
@@ -80,8 +101,9 @@ public class PopUp_Controller : MonoBehaviour {
         talkUI = false;
     }
 
-    public void showDialogue()
+    public void showDialogue(string name)
     {
+        npcName = name;
         diaUp = true; 
     }
 

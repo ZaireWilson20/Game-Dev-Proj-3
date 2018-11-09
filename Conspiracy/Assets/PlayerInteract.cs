@@ -10,8 +10,14 @@ public class PlayerInteract : MonoBehaviour {
     private GameObject canvas;
     private bool canTalk = false;
     public bool talking = false;
-    private PlayerController anonCont; 
+    private PlayerController anonCont;
 
+    public GameObject talkTObj; 
+    private DialogueSystem talkT;
+    private bool lookForTalk = false;
+    private bool convoEnd = false;
+    private bool talkTExists = false;
+    private string npcName;
     [SerializeField]
 
     public GameObject thisCont; 
@@ -24,15 +30,28 @@ public class PlayerInteract : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (lookForTalk)
+        {
+            talkT = GameObject.FindGameObjectWithTag("Dialogue Canvas").GetComponent<DialogueSystem>();
+            talkTExists = true;  
+            lookForTalk = false;
+        }
+
+        if (talkTExists)
+        {
+            //Debug.Log(talkT.currentSentence);
+            convoEnd = talkT.End();
+        }
         if (canTalk && Input.GetKeyDown(KeyCode.E))
         {
             talking = true;
             canTalk = false;
-            canScript.showDialogue();
-            canScript.hidePickUp(); 
+            canScript.showDialogue(npcName);
+            canScript.hidePickUp();
+            lookForTalk = true; 
         }
 
-        else if (talking && Input.GetKeyDown(KeyCode.E))
+        else if (talking && (Input.GetKeyDown(KeyCode.E) || convoEnd))
         {
             canScript.hideDialogue();
             anonCont.setSpeaking(false);
@@ -44,6 +63,7 @@ public class PlayerInteract : MonoBehaviour {
     {
         if(other.tag == "Npc")
         {
+            npcName = other.name;
                 canScript.showPickUp();
             canTalk = true; 
         }

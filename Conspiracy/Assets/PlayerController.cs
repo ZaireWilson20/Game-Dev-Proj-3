@@ -26,19 +26,18 @@ public class PlayerController : MonoBehaviour {
     private PlayerInteract _playerState;
     [SerializeField]
     private GameObject _interactObj;
-
+    public int r = 4; 
     public bool speaking = false; 
 	// Use this for initialization
 	void Start () {
         action = GetComponent<PlayerAction>();
         state = GameObject.FindGameObjectWithTag("GameState");
-        stateScript = state.GetComponent<gameState>();
         _playerState = _interactObj.GetComponent<PlayerInteract>();
+        r = 9;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
         
         if (_playerState.talking)
         {
@@ -86,7 +85,6 @@ public class PlayerController : MonoBehaviour {
             {
 
 
-                Debug.Log("Did Hit");
                 return true; 
             }
         }

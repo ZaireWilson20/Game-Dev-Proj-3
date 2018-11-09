@@ -6,54 +6,69 @@ public class DialogueSystem : MonoBehaviour {
 
     //public Dialogue mainDialogue; 
 
-
+    public Transform main_canvas;
     [SerializeField]
-    private Queue<string> sentences;
-
+    private Sentence[] sentences;
+    public GameObject[] responseUI;
     private Text currentText;
     private Text nameText;
-    private GameObject textObject;
-    private GameObject nameObject; 
-	// Use this for initialization
-	void Start () {
-        sentences = new Queue<string>();
-        //currentText = textObject.GetComponent<Text>();
+    public GameObject textObject;
+    public GameObject nameObject;
+    public int currentSentence = 0;
+    public bool isEnd = false;
+    public bool responseMode = false;
+    public GameObject currentResUI; 
+    public GameObject canvas;
+    private bool exit;
+    // Use this for initialization
+    void Start() {
+        currentText = textObject.GetComponent<Text>();
+        main_canvas = GameObject.FindGameObjectWithTag("Main Canvas").transform;
+        nameText = nameObject.GetComponent<Text>();
+        nameText.text = name;
 
-        //nameText = nameObject.GetComponent<Text>();
-        //nameText.text = name; 
-        
-    	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
+
 
     public void StartDialogue(Dialogue allSentences)
     {
         nameText.text = allSentences.name;
+        sentences = allSentences.sentences;
 
-        sentences.Clear();
 
-        foreach (string sentence in allSentences.sentences)
-        {
-            sentences.Enqueue(sentence);
-        }
-
-        DisplayNextSentence();
+        DisplayNextSentence(currentSentence);
     }
 
-    public void DisplayNextSentence()
+    public void DisplayNextSentence(int curSent)
     {
-        if (sentences.Count == 0)
+
+        if (exit)
         {
             EndDialogue();
-            return;
         }
 
-        string sentence = sentences.Dequeue();
+
+
+        string sentence = sentences[curSent].sentence;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+
+        if (sentences[currentSentence].isQuestion)
+        {
+            responseMode = true;
+            DisplayResponses(sentences[curSent].responseList.Length);
+        }
+        if (sentences[curSent].isEnd)
+        {
+            exit = true;
+        }
+        currentSentence = curSent;
+        Debug.Log(currentSentence);
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -68,6 +83,22 @@ public class DialogueSystem : MonoBehaviour {
 
     void EndDialogue()
     {
+        isEnd = true;
         return;
     }
+
+    public bool End()
+    {
+        return isEnd;
+    }
+    private void DisplayResponses(int numOfRes)
+    {
+        //Debug.Log("hiyaaa");
+        responseUI[numOfRes - 1].SetActive(false);
+        currentResUI = responseUI[numOfRes - 1];
+        
+    }
+
+    public int getCurrentSentence() { return currentSentence; }
+    public Sentence[] GetSentences() { return sentences; }
 }

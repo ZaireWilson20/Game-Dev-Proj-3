@@ -3,14 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class talkTrigger : MonoBehaviour {
-    public Dialogue npcDia;
-    public GameObject box; 
-
-   
+    public Dialogue[] allDialogue;
+    
+    public GameObject box;
+    private Dialogue currentDia;
+    private int currentSent = 0;
 
     public void triggerThat()
     {
-        Debug.Log(npcDia.name);
-        FindObjectOfType<DialogueSystem>().StartDialogue(npcDia); 
+        currentSent = FindObjectOfType<DialogueSystem>().getCurrentSentence();
+        FindObjectOfType<DialogueSystem>().DisplayNextSentence(currentSent + 1);
+        
+    }
+
+    public void StartTalkin()
+    {
+        FindObjectOfType<DialogueSystem>().StartDialogue(currentDia);      
+    }
+
+    public void lookForDialogue(string name)
+    {
+        for(int i = 0; i < allDialogue.Length; i++)
+        {
+            if(allDialogue[i].name == name)
+            {
+                
+                currentDia = allDialogue[i];
+               
+                return;
+            }
+        }
+    }
+
+    public void nextSentence(int repNum)
+    {
+        Debug.Log("repNUM:  " + repNum);
+        DialogueSystem temp = FindObjectOfType<DialogueSystem>();
+        
+        //Debug.Log(temp.GetSentences()[temp.getCurrentSentence()].responseList[repNum - 1].response);
+        temp.DisplayNextSentence(temp.GetSentences()[temp.getCurrentSentence()].responseList[repNum - 1].nextSentenceID - 1);
+        box.GetComponent<DialogueSystem>().currentResUI.SetActive(false);
+        
+        
     }
 }
