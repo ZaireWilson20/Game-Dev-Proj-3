@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.496413, b: 0.5748175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -267,7 +267,7 @@ Transform:
   m_Children:
   - {fileID: 1903100603}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94178355
 GameObject:
@@ -405,7 +405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &192404042
 GameObject:
@@ -597,6 +597,86 @@ Transform:
   m_Father: {fileID: 1908771863}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &498049075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1810007756152784, guid: 463cd1f8903784b0d9313e50f98b013f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498049077}
+  - component: {fileID: 498049076}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &498049076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114464788058091304, guid: 463cd1f8903784b0d9313e50f98b013f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498049075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c1cdfa89c134244a68efcc335f33b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: f999ecfb467bd4828bec83bb9d053caa, type: 3}
+    pitch: 1
+    volume: 1.5
+    source: {fileID: 0}
+    loop: 1
+  - name: Puzzle Solved
+    clip: {fileID: 0}
+    pitch: 1
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Creepy Music
+    clip: {fileID: 8300000, guid: f7a2ef449d460487aba1671904bff122, type: 3}
+    pitch: 1
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Page Flip 1
+    clip: {fileID: 8300000, guid: 3df164c4fa919434fb0ecfa318d90aa7, type: 3}
+    pitch: 1
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Page Flip 2
+    clip: {fileID: 8300000, guid: 519aa6d33022b428298f7d2d1871b38b, type: 3}
+    pitch: 1
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Page Flip 3
+    clip: {fileID: 8300000, guid: cb7a96518a2224f66b2c3d8a48d7496f, type: 3}
+    pitch: 1
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+--- !u!4 &498049077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4542010088375474, guid: 463cd1f8903784b0d9313e50f98b013f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498049075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +752,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &571095557 stripped
 GameObject:
@@ -751,7 +831,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &645546852
 Prefab:
@@ -790,7 +870,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8706af84fa0a4d94894b8498b91d00d9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8706af84fa0a4d94894b8498b91d00d9, type: 3}
       propertyPath: m_LocalScale.x
@@ -842,7 +922,7 @@ Transform:
   - {fileID: 1258615166}
   - {fileID: 1301322014}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &786734655
 Prefab:
@@ -889,7 +969,7 @@ Prefab:
     - target: {fileID: 224972216017634736, guid: 47d8fe96be357824690ddd55a0649aa7,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 224972216017634736, guid: 47d8fe96be357824690ddd55a0649aa7,
         type: 2}
@@ -1110,7 +1190,7 @@ Transform:
   m_LocalScale: {x: 0.29723087, y: 0.30102682, z: 0.30102682}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183242556 stripped
 GameObject:
@@ -1353,7 +1433,7 @@ RectTransform:
   m_Children:
   - {fileID: 1186262430}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1413,7 +1493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 396dc3a182aaae8428f037133c1bab1e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 396dc3a182aaae8428f037133c1bab1e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1728,7 +1808,7 @@ Transform:
   - {fileID: 1568288157}
   - {fileID: 462540960}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1947357100
 Prefab:
