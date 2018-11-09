@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conspiracy", "Conspiracy.csproj", "{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conspiracy.Plugins", "Conspiracy.Plugins.csproj", "{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conspiracy", "Conspiracy.csproj", "{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conspiracy.Plugins", "Conspiracy.Plugins.csproj", "{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conspiracy.Editor.Plugins", "Conspiracy.Editor.Plugins.csproj", "{7D039A54-269C-7AF3-A360-FA42B8869C07}"
 EndProject
@@ -25,14 +25,14 @@ Global
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Release|Any CPU.Build.0 = Release|Any CPU
-		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0178E359-C9BE-4AA8-A8FC-0F4D5A69E975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200B0D7A-61C6-B65E-D878-5AAA6A2A3F51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7D039A54-269C-7AF3-A360-FA42B8869C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D039A54-269C-7AF3-A360-FA42B8869C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D039A54-269C-7AF3-A360-FA42B8869C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
