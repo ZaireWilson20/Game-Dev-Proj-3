@@ -12,14 +12,19 @@ public class DialogueSystem : MonoBehaviour {
 
     private Text currentText;
     private Text nameText;
-    private GameObject textObject;
-    private GameObject nameObject; 
-	// Use this for initialization
-	void Start () {
-        sentences = new Queue<string>();
-        //currentText = textObject.GetComponent<Text>();
+    public  GameObject textObject;
+    public GameObject nameObject;
+    private bool firstSent = true; 
 
-        //nameText = nameObject.GetComponent<Text>();
+ 
+
+    // Use this for initialization
+    void Start () {
+        sentences = new Queue<string>();
+        currentText = textObject.GetComponent<Text>();
+
+        nameText = nameObject.GetComponent<Text>();
+        
         //nameText.text = name; 
         
     	}
@@ -31,6 +36,12 @@ public class DialogueSystem : MonoBehaviour {
 
     public void StartDialogue(Dialogue allSentences)
     {
+        Debug.Log(allSentences.name);
+        if (firstSent)
+        {
+            DisplayNextSentence();
+            firstSent = false; 
+        }
         nameText.text = allSentences.name;
 
         sentences.Clear();

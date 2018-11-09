@@ -10,6 +10,7 @@ TagManager:
   - Npc
   - GameState
   - Dialogue Canvas
+  - Interact
   layers:
   - Default
   - TransparentFX

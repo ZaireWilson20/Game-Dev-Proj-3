@@ -10,7 +10,9 @@ public class PlayerInteract : MonoBehaviour {
     private GameObject canvas;
     private bool canTalk = false;
     public bool talking = false;
-    private PlayerController anonCont; 
+    private PlayerController anonCont;
+    private DialogueContainer blah;
+    public string npcInView = "";
 
     [SerializeField]
 
@@ -29,7 +31,8 @@ public class PlayerInteract : MonoBehaviour {
             talking = true;
             canTalk = false;
             canScript.showDialogue();
-            canScript.hidePickUp(); 
+            canScript.hidePickUp();
+        
         }
 
         else if (talking && Input.GetKeyDown(KeyCode.E))
@@ -42,9 +45,11 @@ public class PlayerInteract : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        
         if(other.tag == "Npc")
         {
-                canScript.showPickUp();
+            npcInView = other.name;
+            canScript.showPickUp();
             canTalk = true; 
         }
     }
@@ -57,5 +62,7 @@ public class PlayerInteract : MonoBehaviour {
             canTalk = false; 
         }
     }
+
+
 
 }

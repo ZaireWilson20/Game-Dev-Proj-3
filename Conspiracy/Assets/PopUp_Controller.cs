@@ -27,9 +27,15 @@ public class PopUp_Controller : MonoBehaviour {
     private DialogueSystem dialogue;
 
     [SerializeField]
-    private GameObject diaPanel; 
-	// Use this for initialization
-	void Start () {
+    private GameObject diaPanel;
+
+    //public GameObject diaSysObj;
+    private DialogueSystem diaSys;
+
+    public GameObject npcDiaObj;
+    public Dialogue otherDia; 
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -37,20 +43,25 @@ public class PopUp_Controller : MonoBehaviour {
 	void Update () {
 
         //Creating Prompt for dialogue interaction
-        nameLater(pickUpText, ref pickUpTextObj, ref E_Pick, ref pickExists);
+        nameLater(pickUpText, ref pickUpTextObj, ref E_Pick, ref pickExists, false);
 
         //Starting Dialogue Scene
-        nameLater(dialougeUI, ref diaObject, ref diaUp, ref diaExists);
+        nameLater(dialougeUI, ref diaObject, ref diaUp, ref diaExists, true);
         
 	}
 
-    private void nameLater(GameObject ogObject, ref GameObject cloneObj, ref bool inRange, ref bool exists)
+    private void nameLater(GameObject ogObject, ref GameObject cloneObj, ref bool inRange, ref bool exists, bool dialogue)
     {
         if (inRange && !exists)
         {
 
             cloneObj = Instantiate(ogObject, transform, false);
             exists = true;
+            if (dialogue)
+            {
+                //npcDiaObj.GetComponent<talkTrigger>().npcDia = otherDia;
+                //npcDiaObj.GetComponent<talkTrigger>().triggerThat();
+            }
         }
         else if (!inRange && exists)
         {
@@ -58,6 +69,8 @@ public class PopUp_Controller : MonoBehaviour {
             Destroy(cloneObj);
             exists = false;
         }
+
+        
     }
 
     public void showPickUp()
