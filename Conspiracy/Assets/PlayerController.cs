@@ -1,4 +1,5 @@
-﻿using System.Collections;
+using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -60,6 +61,11 @@ public class PlayerController : MonoBehaviour {
 
             //Move Player
             action.Move(_velocity);
+		 AudioSource a = GetComponent<AudioSource>();
+	      if (a.isPlaying == false && (Math.Abs(_xMovement) > 0 || Math.Abs(_yMovement) > 0)) {
+			a.Play();
+			Debug.LogWarning("Velocity = " + _velocity);
+		}
 
             //Player Rotation
             float _turnRot = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
