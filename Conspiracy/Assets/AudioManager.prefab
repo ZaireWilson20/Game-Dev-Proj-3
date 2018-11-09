@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1810007756152784}
+  m_IsPrefabAsset: 1
+--- !u!1 &1810007756152784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4542010088375474}
+  - component: {fileID: 114464788058091304}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4542010088375474
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1810007756152784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114464788058091304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1810007756152784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf72875276d649f7bf60cb3dd636523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 9f4f0fca2a6cc4c13bc52d5653d5209e, type: 3}
+    pitch: 0
+    volume: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: Solved
+    clip: {fileID: 8300000, guid: c9c9e4132c85c45e1a8a4692b84c2ace, type: 3}
+    pitch: 0
+    volume: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: Page Flip 1
+    clip: {fileID: 8300000, guid: 9ee7faf84962b41b1ac6c8b68e55f4e2, type: 3}
+    pitch: 0
+    volume: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: Page Flip 2
+    clip: {fileID: 8300000, guid: 981ffebb6cffa43058253745c6a9bcf2, type: 3}
+    pitch: 0
+    volume: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: Page Flip 3
+    clip: {fileID: 8300000, guid: 861a9c5764d7846ef8f5d4454208d17b, type: 3}
+    pitch: 0
+    volume: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: Climax
+    clip: {fileID: 8300000, guid: 9b833e07339274a0ca19b255c26c121c, type: 3}
+    pitch: 0
+    volume: 0
+    source: {fileID: 0}
+    loop: 1

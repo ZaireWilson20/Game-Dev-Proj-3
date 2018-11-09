@@ -75,7 +75,9 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerInteract.cs" />
     <Compile Include="Assets\PopUp_Controller.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Talk.cs" />
     <Compile Include="Assets\talkTrigger.cs" />
     <Compile Include="Assets\viewHandler.cs" />
