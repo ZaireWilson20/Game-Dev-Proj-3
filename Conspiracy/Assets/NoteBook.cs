@@ -29,11 +29,11 @@ public class NoteBook : MonoBehaviour
     bool begin = false;
     bool open = false;
     bool noteBook = false;
-    public bool pageOne = false;
-    public bool pageTwo = false;
-    public bool pageThree = false;
-    public bool pageFour = false;
-    public bool pageFive = false;
+    bool pageOne = false;
+    bool pageTwo = false;
+    bool pageThree = false;
+    bool pageFour = false;
+    bool pageFive = false;
     bool rightFlip = false;
     bool leftFlip = false;
 
