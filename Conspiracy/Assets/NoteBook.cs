@@ -70,6 +70,11 @@ public class NoteBook : MonoBehaviour
             {
                 noteBook = false;
                 count = 200;
+                pageOne = false;
+                pageTwo = false;
+                pageThree = false;
+                pageFour = false;
+                pageFive = false;
             }
             else
             {
