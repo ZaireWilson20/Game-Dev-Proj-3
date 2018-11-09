@@ -53,9 +53,13 @@ public class PlayerInteract : MonoBehaviour {
 
         else if (talking && (Input.GetKeyDown(KeyCode.E) || convoEnd))
         {
+            Debug.Log(talkTExists);
             canScript.hideDialogue();
             anonCont.setSpeaking(false);
-            talking = false; 
+            talking = false;
+            talkT.isEnd = false;
+            convoEnd = false;
+            talkTExists = false; 
         }
 	}
 

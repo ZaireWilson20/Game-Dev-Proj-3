@@ -36,21 +36,21 @@ public class PopUp_Controller : MonoBehaviour {
     public GameObject triggerObj;
 	// Use this for initialization
 	void Start () {
-		
-	}
+        trigger = triggerObj.GetComponent<talkTrigger>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
         //Creating Prompt for dialogue interaction
-        nameLater(pickUpText, ref E_Pick, ref pickExists, false);
+        nameLater(ref pickUpText, ref E_Pick, ref pickExists, false);
 
         //Starting Dialogue Scene
-        nameLater(dialougeUI, ref diaUp, ref diaExists, true);
+        //nameLater(ref dialougeUI, ref diaUp, ref diaExists, true);
         
 	}
 
-    private void nameLater(GameObject ogObject, ref bool inRange, ref bool exists, bool isDia)
+    private void nameLater(ref GameObject ogObject, ref bool inRange, ref bool exists, bool isDia)
     {
         if (diaInst)
         {
@@ -64,7 +64,7 @@ public class PopUp_Controller : MonoBehaviour {
         
         if (inRange && !exists)
         {
-
+            Debug.Log("hello friends");
             ogObject.SetActive(true);
             exists = true;
             if (isDia)
@@ -75,8 +75,11 @@ public class PopUp_Controller : MonoBehaviour {
         else if (!inRange && exists)
         {
             //pickUpTextObj = GameObject.FindGameObjectWithTag("Pick Up");
+            //Debug.Log("in Range: " + inRange + " exists: " + exists);
+            Debug.Log("byebye friends");
             ogObject.SetActive(false);
             exists = false;
+            
         }
     }
 
@@ -104,11 +107,20 @@ public class PopUp_Controller : MonoBehaviour {
     public void showDialogue(string name)
     {
         npcName = name;
-        diaUp = true; 
+        diaUp = true;
+        dialougeUI.SetActive(true);
+        Debug.Log(npcName);
+        trigger.lookForDialogue(npcName);
+        trigger.StartTalkin();
+
     }
 
     public void hideDialogue()
     {
         diaUp = false;
+        dialougeUI.SetActive(false);
+
+        //diaExists = false; 
+
     }
 }

@@ -20,13 +20,21 @@ public class DialogueSystem : MonoBehaviour {
     public GameObject currentResUI; 
     public GameObject canvas;
     private bool exit;
-    // Use this for initialization
-    void Start() {
+    public AddResponseText addRes;
+    
+
+    private void Awake()
+    {
         currentText = textObject.GetComponent<Text>();
         main_canvas = GameObject.FindGameObjectWithTag("Main Canvas").transform;
         nameText = nameObject.GetComponent<Text>();
         nameText.text = name;
+    }
 
+    // Use this for initialization
+    void Start() {
+       
+        Debug.Log("JII");
     }
 
     // Update is called once per frame
@@ -37,6 +45,7 @@ public class DialogueSystem : MonoBehaviour {
 
     public void StartDialogue(Dialogue allSentences)
     {
+        Debug.Log(nameText);
         nameText.text = allSentences.name;
         sentences = allSentences.sentences;
 
@@ -46,10 +55,12 @@ public class DialogueSystem : MonoBehaviour {
 
     public void DisplayNextSentence(int curSent)
     {
-
+        currentSentence = curSent;
         if (exit)
         {
+            currentSentence = 0;
             EndDialogue();
+            exit = false;
         }
 
 
@@ -67,7 +78,7 @@ public class DialogueSystem : MonoBehaviour {
         {
             exit = true;
         }
-        currentSentence = curSent;
+        
         Debug.Log(currentSentence);
     }
 
@@ -93,10 +104,11 @@ public class DialogueSystem : MonoBehaviour {
     }
     private void DisplayResponses(int numOfRes)
     {
-        //Debug.Log("hiyaaa");
-        responseUI[numOfRes - 1].SetActive(false);
+        Debug.Log("hiyaaa");
+        responseUI[numOfRes - 1].SetActive(true);
         currentResUI = responseUI[numOfRes - 1];
-        
+        addRes = currentResUI.GetComponent<AddResponseText>();
+        addRes.addText(sentences[currentSentence].responseList);
     }
 
     public int getCurrentSentence() { return currentSentence; }

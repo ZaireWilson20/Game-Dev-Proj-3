@@ -27,7 +27,7 @@ public class talkTrigger : MonoBehaviour {
         {
             if(allDialogue[i].name == name)
             {
-                
+                Debug.Log("uhiuhiuhiu");
                 currentDia = allDialogue[i];
                
                 return;
@@ -43,6 +43,7 @@ public class talkTrigger : MonoBehaviour {
         //Debug.Log(temp.GetSentences()[temp.getCurrentSentence()].responseList[repNum - 1].response);
         temp.DisplayNextSentence(temp.GetSentences()[temp.getCurrentSentence()].responseList[repNum - 1].nextSentenceID - 1);
         box.GetComponent<DialogueSystem>().currentResUI.SetActive(false);
+        
         
         
     }
