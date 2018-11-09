@@ -10,6 +10,14 @@ TagManager:
   - Npc
   - GameState
   - Dialogue Canvas
+  - Background
+  - debunk
+  - firstClue
+  - secondClue
+  - firstYeti
+  - secondYeti
+  - given
+  - title
   layers:
   - Default
   - TransparentFX
