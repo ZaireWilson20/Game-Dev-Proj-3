@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PuzzleButtonScript : MonoBehaviour {
 
     public bool selected = false;
-    Color selectedColor = new Color(1f, 0f, 0f);
-    Color notSelectedColor = new Color(1f, 1f, 1f);
+    Color selectedColor = new Color(0.2265625f, 0.015625f, 0.015625f);
+    Color32 notSelectedColor = new Color32(130, 105, 69, 255);
     PuzzleManagerScript managerScript;
 
     Image image;
@@ -17,6 +17,8 @@ public class PuzzleButtonScript : MonoBehaviour {
         managerScript = GameObject.Find("PuzzleManager").GetComponent<PuzzleManagerScript>();
 
         image = gameObject.GetComponent<Image>();
+
+        image.color = notSelectedColor;
     }
 
     public void Select()
