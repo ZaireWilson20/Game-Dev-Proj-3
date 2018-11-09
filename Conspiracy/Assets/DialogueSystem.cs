@@ -17,11 +17,12 @@ public class DialogueSystem : MonoBehaviour {
     public int currentSentence = 0;
     public bool isEnd = false;
     public bool responseMode = false;
+    public bool check = false;
     public GameObject currentResUI; 
     public GameObject canvas;
     private bool exit;
     public AddResponseText addRes;
-    
+    public GameObject bookScript;
 
     private void Awake()
     {
@@ -33,7 +34,6 @@ public class DialogueSystem : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-       
         Debug.Log("JII");
     }
 

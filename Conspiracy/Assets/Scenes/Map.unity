@@ -5990,7 +5990,7 @@ GameObject:
   - component: {fileID: 236705110}
   - component: {fileID: 236705111}
   m_Layer: 0
-  m_Name: Person (1)
+  m_Name: Carol
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6076,7 +6076,7 @@ GameObject:
   - component: {fileID: 238532610}
   - component: {fileID: 238532611}
   m_Layer: 0
-  m_Name: Person (5)
+  m_Name: Elenor
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11614,7 +11614,7 @@ GameObject:
   - component: {fileID: 468486787}
   - component: {fileID: 468486788}
   m_Layer: 0
-  m_Name: Person
+  m_Name: Carl
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21050,7 +21050,7 @@ GameObject:
   - component: {fileID: 839524114}
   - component: {fileID: 839524115}
   m_Layer: 0
-  m_Name: Person (9)
+  m_Name: Dave
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24740,6 +24740,106 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 299050928}
     m_Modifications:
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].responseList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[4].responseList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[5].responseList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[6].responseList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[7].responseList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224290642028048044, guid: 4587343a7e053cb47ac882869c56a453,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -24868,6 +24968,806 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[0].response
+      value: Do you believe in conspiracy theories?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].name
+      value: Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[0].response
+      value: Do you believe in conspiracy theories?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[1].sentence
+      value: Life frfr, u need to get ya ppl
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[2].sentence
+      value: ayee lil brudda, im wit it
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[2].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[3].sentence
+      value: well fuck u too lil whore
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[3].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[4].sentence
+      value: my mothers a saint!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[1].sentences.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].name
+      value: Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[0].response
+      value: Do you believe in conspiracy theories?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[1].sentence
+      value: Life frfr, u need to get ya ppl
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[2].sentence
+      value: ayee lil brudda, im wit it
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[2].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[3].sentence
+      value: well fuck u too lil whore
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[3].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[4].sentence
+      value: my mothers a saint!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[2].sentences.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].name
+      value: Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[0].response
+      value: Do you believe in conspiracy theories?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[1].sentence
+      value: Life frfr, u need to get ya ppl
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[2].sentence
+      value: ayee lil brudda, im wit it
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[2].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[3].sentence
+      value: well fuck u too lil whore
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[3].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[4].sentence
+      value: my mothers a saint!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[3].sentences.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].name
+      value: Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[0].response
+      value: Do you believe in conspiracy theories?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[1].sentence
+      value: Life frfr, u need to get ya ppl
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[2].sentence
+      value: ayee lil brudda, im wit it
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[2].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[3].sentence
+      value: well fuck u too lil whore
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[3].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[4].sentence
+      value: my mothers a saint!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[4].sentences.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].name
+      value: Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[0].response
+      value: Do you believe in conspiracy theories?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[1].sentence
+      value: Life frfr, u need to get ya ppl
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[2].sentence
+      value: ayee lil brudda, im wit it
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[2].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[3].sentence
+      value: well fuck u too lil whore
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[3].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[4].sentence
+      value: my mothers a saint!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[5].sentences.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].name
+      value: Skinner
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].sentence
+      value: 'Hello! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[0].response
+      value: So you've seen a yeti have you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[1].response
+      value: Do you believe in the yeti?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[2].response
+      value: This may seem a strange question, but, have you ever seen an alien ship?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[3].response
+      value: Have you heard any stories about a cult around here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[3].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[4].response
+      value: Does anyone here act suspiciously? Like they might be in a cult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[0].responseList.Array.data[4].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[1].sentence
+      value: Life frfr, u need to get ya ppl
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[2].sentence
+      value: ayee lil brudda, im wit it
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[2].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[3].sentence
+      value: well fuck u too lil whore
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[3].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[4].sentence
+      value: my mothers a saint!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[6].sentences.Array.data[4].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[1].isQuestion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[1].sentence
+      value: "Everyone here seems to have their favorites. Communists in the government,
+        the government poisoning our water . . . always something with the government.
+        \u2018Course, you can\u2019t help but hear about some . . . less natural occurrences
+        every now and then, too. Stuff not from this world"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[1].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].sentence
+      value: "I try to be skeptical, but, ever since I moved here, the sorts of things
+        I\u2019ve seen . . . there isn\u2019t much I wouldn\u2019t believe in."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].responseList.Array.data[0].response
+      value: Do you have any evidence?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].responseList.Array.data[1].response
+      value: So you've seen it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[3].sentence
+      value: What, does anecdotal evidence not count as evidence these days?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[4].sentence
+      value: No but I know someone that has
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[4].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[4].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[4].responseList.Array.data[0].response
+      value: And who might that be?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[5].sentence
+      value: "Skinner, does a lot of hunting around these parts, swears he\u2019s
+        seen him creepin\u2019 around in them there woods. In fact, I ran by him just
+        earlier today, hanging out around the west end of town. Yeah, near that circle
+        in the North-West corner of your map. He sports a big \u2018ol mustache; you\u2019ll
+        know him when you see him."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[5].isQuestion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[5].responseList.Array.data[0].response
+      value: And who might that be?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[5].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[0].nextSentenceID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[1].nextSentenceID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[0].responseList.Array.data[2].nextSentenceID
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].responseList.Array.data[0].nextSentenceID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[2].responseList.Array.data[1].nextSentenceID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[4].responseList.Array.data[0].nextSentenceID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[6].sentence
+      value: "Now that you mention it, old Finn does tend to go on and on about this
+        sort of thing. Loves telling his story to newcomers. You should talk to him,
+        I\u2019m sure he\u2019d love the audience. Last I saw, he was hanging out
+        around the East end of town. Sorta near that small circle there on your map,
+        South-East. He wears a big \u2018ol top hat, you can spot him a mile away."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[6].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[6].responseList.Array.data[0].response
+      value: And who might that be?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[7].sentence
+      value: "What? A cult? Here? I mean, personally, I\u2019d say that sounds pretty
+        ridiculous. If you don\u2019t mind, I should--I have to go. Take care.What?
+        A cult? Here? I mean, personally, I\u2019d say that sounds pretty ridiculous.
+        If you don\u2019t mind, I should--I have to go. Take care."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[7].isEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114934568046980846, guid: 4587343a7e053cb47ac882869c56a453,
+        type: 2}
+      propertyPath: allDialogue.Array.data[0].sentences.Array.data[7].responseList.Array.data[0].response
+      value: And who might that be?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4587343a7e053cb47ac882869c56a453, type: 2}
@@ -29382,7 +30282,7 @@ GameObject:
   - component: {fileID: 1156400231}
   - component: {fileID: 1156400232}
   m_Layer: 0
-  m_Name: Person (2)
+  m_Name: Bob
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31990,7 +32890,7 @@ GameObject:
   - component: {fileID: 1262595013}
   - component: {fileID: 1262595014}
   m_Layer: 0
-  m_Name: Person (3)
+  m_Name: Susan
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33320,7 +34220,7 @@ GameObject:
   - component: {fileID: 1296553215}
   - component: {fileID: 1296553216}
   m_Layer: 0
-  m_Name: Person (7)
+  m_Name: Jane
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40650,7 +41550,7 @@ GameObject:
   - component: {fileID: 1625402801}
   - component: {fileID: 1625402802}
   m_Layer: 0
-  m_Name: Person (10)
+  m_Name: Penny
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47760,7 +48660,7 @@ GameObject:
   - component: {fileID: 1888832527}
   - component: {fileID: 1888832528}
   m_Layer: 0
-  m_Name: JoeObj
+  m_Name: Joe
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50562,7 +51462,7 @@ GameObject:
   - component: {fileID: 2014726173}
   - component: {fileID: 2014726174}
   m_Layer: 0
-  m_Name: Person (6)
+  m_Name: Carlos
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53571,7 +54471,7 @@ GameObject:
   - component: {fileID: 2127429683}
   - component: {fileID: 2127429684}
   m_Layer: 0
-  m_Name: Person (8)
+  m_Name: Jared
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
