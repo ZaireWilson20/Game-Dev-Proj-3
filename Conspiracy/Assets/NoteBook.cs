@@ -26,6 +26,9 @@ public class NoteBook : MonoBehaviour
     public bool secondAlien = false;
     public bool firstCult = false;
     public bool secondCult = false;
+    public bool yetiSolve = false;
+    public bool alienSolve = false;
+    public bool cultSolve = false;
     bool begin = false;
     bool open = false;
     bool noteBook = false;
@@ -36,6 +39,8 @@ public class NoteBook : MonoBehaviour
     bool pageFive = false;
     bool rightFlip = false;
     bool leftFlip = false;
+
+    PlayerController playerComponent;
 
 
     // Use this for initialization
@@ -53,6 +58,8 @@ public class NoteBook : MonoBehaviour
         debunked = GameObject.FindWithTag("debunk").GetComponent<Text>() as Text;
         title = GameObject.FindWithTag("title").GetComponent<Text>() as Text;
         given = GameObject.FindWithTag("given").GetComponent<Text>() as Text;
+
+        playerComponent = GameObject.FindWithTag("player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -75,12 +82,14 @@ public class NoteBook : MonoBehaviour
                 pageThree = false;
                 pageFour = false;
                 pageFive = false;
+                playerComponent.reading = false;
             }
             else
             {
                 begin = true;
                 open = true;
                 noteBook = true;
+                playerComponent.reading = true;
             }
         }
         //countdown to open 
@@ -216,7 +225,7 @@ public class NoteBook : MonoBehaviour
         title.text = "Yeti Theory";
         given.text = "Lives in the forest" + "\n" + "Carnivorous; Hunts at night" + "\n" +
             "Goes for individuals, not groups" + "\n" + "Apex predator (probably???)";
-        if (firstYeti == true && secondYeti == true)
+        if (yetiSolve == true)
         {
             debunked.text = "Debunked";
         }
@@ -236,7 +245,7 @@ public class NoteBook : MonoBehaviour
         title.text = "Alien Abduction";
         given.text = "Abduct people for experiments" + "\n" + 
             "Unexplainable lights in the sky (airplanes, maybe???)";
-        if (firstAlien == true && secondAlien == true)
+        if (alienSolve == true)
         {
             debunked.text = "Debunked";
         }
@@ -265,7 +274,7 @@ public class NoteBook : MonoBehaviour
         {
             clueTwo.text = "If this is real . . . are the townspeople spreading the other theories as cover-ups? Who’s in on this thing?";
         }
-        if (firstCult == true && secondCult == true)
+        if (cultSolve == true)
         {
             debunked.text = "IT'S REAL I SHOULD RUN";
         }

@@ -28,7 +28,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private GameObject _interactObj;
     public int r = 4; 
-    public bool speaking = false; 
+    public bool speaking = false;
+    public bool reading = false;
 	// Use this for initialization
 	void Start () {
         action = GetComponent<PlayerAction>();
@@ -47,7 +48,14 @@ public class PlayerController : MonoBehaviour {
                 setSpeaking(true);
             }
         }
-        else { 
+        /*else if (reading == true)
+        {
+            if (playerCamera.transform.up > 0)
+            playerCamera.transform.up = 10;
+            
+        }*/
+        else
+        { 
             //Getting Input 
             float _xMovement = Input.GetAxisRaw("Horizontal");
             float _yMovement = Input.GetAxisRaw("Vertical");

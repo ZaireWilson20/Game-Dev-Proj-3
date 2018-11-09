@@ -7567,16 +7567,19 @@ MonoBehaviour:
   clueTwoYeti: {fileID: 1011882616}
   clueOne: {fileID: 1123469719}
   clueTwo: {fileID: 519201655}
-  yetiPhoto: {fileID: 21300000, guid: 50d66d4f82064c944b9fbdc7b7c0f3a5, type: 3}
+  yetiPhoto: {fileID: 21300000, guid: 80ed44d26096bec40a052526310e334d, type: 3}
   transparentBackground: {fileID: 21300000, guid: 50d66d4f82064c944b9fbdc7b7c0f3a5,
     type: 3}
-  map: {fileID: 21300000, guid: 50d66d4f82064c944b9fbdc7b7c0f3a5, type: 3}
+  map: {fileID: 21300000, guid: 413775048b4dd584bb9de49542c7c7ca, type: 3}
   firstYeti: 0
   secondYeti: 0
   firstAlien: 0
   secondAlien: 0
   firstCult: 0
   secondCult: 0
+  yetiSolve: 0
+  alienSolve: 0
+  cultSolve: 0
 --- !u!114 &299050930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14023,6 +14026,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 792597208}
   m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &568124128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 755423455}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 568124129}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568124129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 755423455}
+  m_GameObject: {fileID: 568124128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &570689818
 GameObject:
@@ -43128,6 +43159,7 @@ MonoBehaviour:
   _interactObj: {fileID: 899395907}
   r: 4
   speaking: 0
+  reading: 0
 --- !u!65 &1730624876
 BoxCollider:
   m_ObjectHideFlags: 0
